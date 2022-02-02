@@ -1,0 +1,21 @@
+body {
+  margin: 15px;
+}
+
+.calculator {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.speed-inputs, .distance-inputs {
+  display: flex;
+}
+
+.speed-inputs {
+  margin-right: 50px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
