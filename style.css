@@ -1,21 +1,28 @@
 body {
-  margin: 15px;
+  margin: 10px;
 }
 
 .calculator {
   display: flex;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 35px;
 }
 
 .speed-inputs, .distance-inputs {
   display: flex;
-}
-
-.speed-inputs {
-  margin-right: 50px;
+  margin-bottom: 15px;
 }
 
 .col {
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 768px) {
+  body { margin: 15px; }
+  .calculator { flex-direction: row; }
+  .speed-inputs { margin-right: 50px; }
+}
+
+
